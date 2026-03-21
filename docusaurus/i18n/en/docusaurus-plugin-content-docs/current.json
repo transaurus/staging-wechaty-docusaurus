@@ -1,0 +1,130 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category 'Introduction' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Showcases": {
+    "message": "Showcases",
+    "description": "The label for category 'Showcases' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Case Study": {
+    "message": "Case Study",
+    "description": "The label for category 'Case Study' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Community": {
+    "message": "Community",
+    "description": "The label for category 'Community' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.开源软件供应链点亮计划": {
+    "message": "开源软件供应链点亮计划",
+    "description": "The label for category '开源软件供应链点亮计划' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Google Season of Docs": {
+    "message": "Google Season of Docs",
+    "description": "The label for category 'Google Season of Docs' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Google Summer of Code": {
+    "message": "Google Summer of Code",
+    "description": "The label for category 'Google Summer of Code' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Contributing": {
+    "message": "Contributing",
+    "description": "The label for category 'Contributing' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category 'Tutorials' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Quick Start": {
+    "message": "Quick Start",
+    "description": "The label for category 'Quick Start' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Using Plugin with Wechaty": {
+    "message": "Using Plugin with Wechaty",
+    "description": "The label for category 'Using Plugin with Wechaty' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Using Redux with Wechaty": {
+    "message": "Using Redux with Wechaty",
+    "description": "The label for category 'Using Redux with Wechaty' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Examples": {
+    "message": "Examples",
+    "description": "The label for category 'Examples' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Basic": {
+    "message": "Basic",
+    "description": "The label for category 'Basic' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category 'Advanced' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Professional": {
+    "message": "Professional",
+    "description": "The label for category 'Professional' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.How-to Guides": {
+    "message": "How-to Guides",
+    "description": "The label for category 'How-to Guides' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Add events to the bot": {
+    "message": "Add events to the bot",
+    "description": "The label for category 'Add events to the bot' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Add functionality to the bot": {
+    "message": "Add functionality to the bot",
+    "description": "The label for category 'Add functionality to the bot' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Deploy on IM platform": {
+    "message": "Deploy on IM platform",
+    "description": "The label for category 'Deploy on IM platform' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Deploy in Wechat Puppet": {
+    "message": "Deploy in Wechat Puppet",
+    "description": "The label for category 'Deploy in Wechat Puppet' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Deploy with Containers": {
+    "message": "Deploy with Containers",
+    "description": "The label for category 'Deploy with Containers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.References": {
+    "message": "References",
+    "description": "The label for category 'References' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.API": {
+    "message": "API",
+    "description": "The label for category 'API' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Polyglot": {
+    "message": "Polyglot",
+    "description": "The label for category 'Polyglot' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Puppet Providers": {
+    "message": "Puppet Providers",
+    "description": "The label for category 'Puppet Providers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Puppet Services": {
+    "message": "Puppet Services",
+    "description": "The label for category 'Puppet Services' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Specifications": {
+    "message": "Specifications",
+    "description": "The label for category 'Specifications' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Explanations": {
+    "message": "Explanations",
+    "description": "The label for category 'Explanations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Docusaurus": {
+    "message": "Docusaurus",
+    "description": "The label for category 'Docusaurus' in sidebar 'docs'"
+  }
+}

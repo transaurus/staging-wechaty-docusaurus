@@ -1,0 +1,110 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "The label of footer link with label=Introduction linking to docs/"
+  },
+  "link.item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label of footer link with label=Tutorials linking to docs/tutorials/"
+  },
+  "link.item.label.Explanations": {
+    "message": "Explanations",
+    "description": "The label of footer link with label=Explanations linking to docs/explanations/"
+  },
+  "link.item.label.References": {
+    "message": "References",
+    "description": "The label of footer link with label=References linking to docs/references/"
+  },
+  "link.item.label.How-to Guides": {
+    "message": "How-to Guides",
+    "description": "The label of footer link with label=How-to Guides linking to docs/howto/"
+  },
+  "link.item.label.Gitter": {
+    "message": "Gitter",
+    "description": "The label of footer link with label=Gitter linking to https://gitter.im/wechaty/wechaty"
+  },
+  "link.item.label.Discussion": {
+    "message": "Discussion",
+    "description": "The label of footer link with label=Discussion linking to https://github.com/wechaty/wechaty/discussions"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/wechaty"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/wechaty"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/chatieio"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://bit.ly/3aoLE86"
+  },
+  "link.item.label.Open Collective": {
+    "message": "Open Collective",
+    "description": "The label of footer link with label=Open Collective linking to https://opencollective.com/wechaty"
+  },
+  "link.item.label.Google Drive": {
+    "message": "Google Drive",
+    "description": "The label of footer link with label=Google Drive linking to https://bit.ly/33Dfkuf"
+  },
+  "link.item.label.Photo Album": {
+    "message": "Photo Album",
+    "description": "The label of footer link with label=Photo Album linking to https://photos.app.goo.gl/LkmYMWypGoJdyvEJ6"
+  },
+  "link.item.label.Meeting Notes": {
+    "message": "Meeting Notes",
+    "description": "The label of footer link with label=Meeting Notes linking to https://bit.ly/2zpi2XG"
+  },
+  "link.item.label.Hall of Fame": {
+    "message": "Hall of Fame",
+    "description": "The label of footer link with label=Hall of Fame linking to https://bit.ly/2J6ziXa"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://wechaty.js.org/blog/"
+  },
+  "link.item.label.Book": {
+    "message": "Book",
+    "description": "The label of footer link with label=Book linking to http://www.bot5.ml/blogs/chatbot-0-1/"
+  },
+  "link.item.label.Branding": {
+    "message": "Branding",
+    "description": "The label of footer link with label=Branding linking to branding"
+  },
+  "link.item.label.Press": {
+    "message": "Press",
+    "description": "The label of footer link with label=Press linking to press"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/wechaty/wechaty#readme"
+  },
+  "link.item.label.Status": {
+    "message": "Status",
+    "description": "The label of footer link with label=Status linking to https://chatie.statuspage.io/"
+  },
+  "copyright": {
+    "message": "Copyright © 2016-2026 Wechaty Contributors",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Wechaty Logo",
+    "description": "The alt text of footer logo"
+  }
+}

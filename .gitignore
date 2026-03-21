@@ -1,0 +1,32 @@
+node_modules/
+t/
+t.*
+
+.idea
+.DS_Store
+*/.DS_Store
+
+package-lock.json
+
+new-gh-pages/
+tmp/
+
+.nyc_output/
+
+node_modules
+
+# Production
+build/
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+t/
+t.*

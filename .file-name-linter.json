@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "docusaurus/docs": [
+      "/[0-9\\-a-z]+\\.",
+      "\\.md(x?)$"
+    ],
+    "docusaurus/static": [
+      "^(\\.?)[0-9\\-a-z_]+(\\.?)",
+      "\\.(webp|pdf|zip|svg|css|ico|png|nojekyll|js|json)$"
+    ]
+  },
+  "ignore": [
+    "tests/fixtures"
+  ]
+}

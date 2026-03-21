@@ -1,0 +1,73 @@
+{
+  "name": "wechaty-docusaurus",
+  "version": "0.11.10",
+  "description": "Wechaty Official Website for Documentations",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "scripts": {
+    "fit-image": "./scripts/fit-image.sh",
+    "lint": "npm-run-all lint:es lint:ts lint:md lint:fn lint:yml",
+    "lint:es": "eslint \"src/**/*.ts\" \"tests/**/*.spec.ts\" --ignore-pattern tests/fixtures/",
+    "lint:ts": "tsc --isolatedModules --noEmit",
+    "lint:md": "markdownlint --ignore _site/ --ignore node_modules/ --ignore docusaurus/node_modules/ \"**/*.md\"",
+    "lint:fn": "file-name-linter .file-name-linter.json",
+    "lint:yml": "true || yamllint jekyll/_data/*.yml",
+    "test": "npm-run-all lint test:unit",
+    "test:unit": "cross-env TAP_TIMEOUT=60 NODE_OPTIONS=\"--no-warnings --loader=ts-node/esm\" tap \"src/**/*.spec.ts\" \"tests/**/*.spec.ts\"",
+    "build": "cd docusaurus && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechaty/docusaurus.git"
+  },
+  "keywords": [
+    "wechaty",
+    "document",
+    "homepage",
+    "Docusaurus"
+  ],
+  "author": "Huan LI <zixia@zixia.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wechaty/docusaurus/issues"
+  },
+  "homepage": "https://github.com/wechaty/docusaurus#readme",
+  "devDependencies": {
+    "@chatie/eslint-config": "^1.0.4",
+    "@chatie/tsconfig": "^4.6.3",
+    "@types/ci-info": "^3.1.0",
+    "@types/glob": "^7.2.0",
+    "@types/lodash": "^4.14.181",
+    "@types/marked": "^4.0.3",
+    "@types/node-fetch": "^2.6.1",
+    "@types/probe-image-size": "^7.0.1",
+    "@types/yaml-front-matter": "^4.1.0",
+    "abort-controller": "^3.0.0",
+    "clsx": "^1.1.1",
+    "cross-env": "^7.0.3",
+    "file-box": "^1.4.15",
+    "glob": "^7.2.0",
+    "https-proxy-agent": "^5.0.0",
+    "image-size": "^1.0.1",
+    "is-pr": "^2.0.0",
+    "lodash": "^4.17.21",
+    "markdownlint-cli": "^0.31.1",
+    "marked": "^4.0.12",
+    "net": "^1.0.2",
+    "node-fetch": "^3.2.3",
+    "npm-run-all": "^4.1.5",
+    "probe-image-size": "^7.2.3",
+    "tls": "^0.0.1",
+    "tstest": "^1.2.8",
+    "typescript": "^4.6.3",
+    "uuid": "^8.3.2",
+    "yaml": "^1.10.2",
+    "yaml-front-matter": "^4.1.1",
+    "yaml-lint": "^1.2.4",
+    "zero-md": "^2.3.4"
+  }
+}

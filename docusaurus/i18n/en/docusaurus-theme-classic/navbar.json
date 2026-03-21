@@ -1,0 +1,54 @@
+{
+  "logo.alt": {
+    "message": "Wechaty Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.News": {
+    "message": "News",
+    "description": "Navbar item with label News"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Contributors": {
+    "message": "Contributors",
+    "description": "Navbar item with label Contributors"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.PreAngel.AI": {
+    "message": "PreAngel.AI",
+    "description": "Navbar item with label PreAngel.AI"
+  },
+  "item.label.Ship.Fail": {
+    "message": "Ship.Fail",
+    "description": "Navbar item with label Ship.Fail"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Introduction": {
+    "message": "Introduction",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.How-to Guides": {
+    "message": "How-to Guides",
+    "description": "Navbar item with label How-to Guides"
+  },
+  "item.label.References": {
+    "message": "References",
+    "description": "Navbar item with label References"
+  },
+  "item.label.Explanations": {
+    "message": "Explanations",
+    "description": "Navbar item with label Explanations"
+  }
+}
