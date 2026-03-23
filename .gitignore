@@ -16,7 +16,6 @@ tmp/
 node_modules
 
 # Production
-build/
 
 # Generated files
 .docusaurus
