@@ -20,21 +20,20 @@
     "@easyops-cn/docusaurus-search-local": "^0.48.4",
     "clsx": "^1.1.1",
     "prism-react-renderer": "^2.0.0",
-    "qrcode.react": "^3.1.0",
     "react": "^18.0.0",
-    "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^18.0.0",
+    "react-copy-to-clipboard": "^5.0.4",
+    "qrcode.react": "^3.1.0",
     "redocusaurus": "^2.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.0.0",
     "@docusaurus/plugin-pwa": "^3.0.0",
-    "@docusaurus/tsconfig": "^3.0.0",
     "@ionic-internal/docusaurus-plugin-tag-manager": "github:ionic-team/docusaurus-plugin-tag-manager",
+    "@docusaurus/tsconfig": "^3.0.0",
     "@types/react": "^18.0.0",
     "@types/react-helmet": "^6.1.5",
     "@types/react-router-dom": "^5.3.3",
-    "ts-node": "^10.9.2",
     "typescript": "^5.0.0"
   },
   "browserslist": {
