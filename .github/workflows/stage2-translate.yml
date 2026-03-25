@@ -50,7 +50,7 @@ jobs:
 
           # If not found at DOC_ROOT, search one level deeper (monorepos like badges/shields)
           if [ -z "$CONFIG_FILE" ]; then
-            CONFIG_FILE=$(find "${DOC_ROOT}" -maxdepth 2 -name "docusaurus.config.*" \
+            CONFIG_FILE=$(find "${DOC_ROOT}" -maxdepth 2 -type f -name "docusaurus.config.*" \
               -not -path "*/node_modules/*" -not -path "*/.git/*" | head -1)
           fi
 
@@ -138,7 +138,7 @@ jobs:
         run: |
           DOC_ROOT="${{ steps.meta.outputs.docusaurusRoot }}"
           # Find config file
-          CONFIG_FILE=$(find "${DOC_ROOT}" -maxdepth 2 -name "docusaurus.config.*" \
+          CONFIG_FILE=$(find "${DOC_ROOT}" -maxdepth 2 -type f -name "docusaurus.config.*" \
             -not -path "*/node_modules/*" -not -path "*/.git/*" | head -1)
           if [ -n "$CONFIG_FILE" ]; then
             # Replace onBrokenLinks: 'throw' with 'warn'
