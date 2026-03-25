@@ -32,7 +32,7 @@ const config = {
   themes,
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh'],
+    locales: ["en", "zh-Hans"],
     localeConfigs: {
       en: {
         htmlLang: 'en-US',
